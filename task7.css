@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(95deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4761554279915091) 13%, rgba(0, 0, 0, 0.24646355124080888) 87%, rgba(0, 0, 0, 1) 100%), url(img/cod.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    /* width: 1200px; */
+    margin: auto;
+    margin: 0px 200px;
+}
+
+.main-left {
+    /* margin: 150px 250px; */
+    /* display: inline-block; */
+    /* max-width: 260px; */
+    /* width: 100%; */
+    /* display: inline-block; */
+}
+
+.main-right {
+    display: inline-block;
+    border-radius: 25px;
+    background-color: #fff;
+    max-width: 50%;
+}
+
+.title1 {
+    color: aliceblue;
+    margin-top: -50px;
+}
+
+.title1 p {
+    margin-top: 25px;
+}
+.card-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+.card {
+    /* display: block; */
+    border: 0px solid black;
+    background-color: rgba(0, 0, 0, 0.395);
+    /* max-width: 240px; */
+    /* width: 100%; */
+    /* height: 96px; */
+    border-radius: 15px;
+    margin-top: 15px;
+    transition: .6s;
+}
+
+.card:hover {
+    background-color: #00000038;
+    box-shadow: 0px 5px 20px rgb(179, 176, 176);
+    scale: 1.1;
+}
+
+.no1 {
+    margin-top: 40px;
+}
+
+.card-top {
+    display: block;
+    width: 80px;
+    height: 96px;
+}
+
+.card-top img {
+    display: block;
+    width: 100%;
+    height: 100px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-bottom {
+    display: inline-block;
+    vertical-align: top;
+    color: aliceblue;
+    font-size: .7em;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.card-bottom p {
+    margin-top: 10px;
+    color: #808191;
+}
+
+.card-top {
+    display: inline-block;
+}
+
+.disc {
+    color: rgb(176, 114, 27);
+    margin-right: 5px;
+}
+
+.btn1 {
+    margin-top: 20px;
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn1 span {
+    border: 2px solid #fff;
+    padding: 1px 5px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.card-right {
+    padding: 40px;
+    margin: auto;
+    
+}
+
+.btn3 i {
+    font-size: 40px;    
+    color: #2c2b2b;
+    transition: .5s ease-in-out;
+    border-radius: 50%;
+    transition: .8;
+}
+
+.btn3 i:hover{
+    box-shadow: 0 0 15px rgb(99, 98, 98);
+    background-color: #ffffff;
+    color: #2a86d0;
+    scale: 1.1;
+}
+
+.btn3{
+    margin-left: 350px;
+    max-width: 40px;
+    width: 100%;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+}
+
+.title2 h2 {
+    font-size: 2.3em;
+    margin-bottom: 20px;
+}
+
+.title2 span a {
+    text-decoration: none;
+    color: rgb(49, 160, 219);
+}
+
+.title2 {
+    margin-bottom: 40px;
+}
+
+.title2 span {
+    color: #808191;
+}
+
+.input1 p {
+    margin: 40px 0px 10px 0px;
+}
+
+.input input {
+    /* max-width: 368px; */
+    /* width: 100%; */
+    /* height: 56px; */
+    background-color: #f1eded;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    padding: 20px 70px;
+    font-size: 1.1em;
+}
+
+.password {
+    margin-top: 20px;
+}
+
+.input-btn input {
+    /* max-width: 368px; */
+    /* width: 100%; */
+    padding: 20px 142px;
+    border: 0;
+    background-color: #6C5DD3;
+    border-radius: 10px;
+    font-size: 1.1em;
+    color: #fff;
+    margin-top: 30px;
+    transition: .8s;
+}
+
+.input-btn input:hover {
+    background-color:#210f98 ;
+    box-shadow: 1px 1px 15px rgb(51, 51, 51);
+}
+
+.input-btn input:active {
+    background-color: #000000;
+    color: #fff;
+}
+
+.btn2 button {
+    /* max-width: 368px; */
+    /* width: 100%; */
+    padding: 20px 149px;
+    border: 0;
+    background-color: #3F8CFF;
+    border-radius: 10px;
+    font-size: 1.1em;
+    color: #fff;
+    margin-top: 30px;
+    transition: .8s;
+}
+
+.btn2 button:hover {
+    background-color: #210f98;
+    box-shadow: 1px 1px 10px #3a3939;
+    scale: 1.1;
+    /* rotate: 2deg; */
+}
+
+.btn2 button:active {
+    background-color: #000000;
+    color: #ffffff;
+    scale: 1;
+}
+
+
+.btn2 p {
+    margin-top: 20px;
+    color: #808191;
+    font-size: .9em;
+}
+
+.input p {
+    color: #808191;
+    font-size: .9em;
+}
+
+@media only screen and (max-width: 768px) {
+    body {background-image: none;}
+    .main-left {display: none;}
+    .card-flex {padding: 0;}
+    .card-right {max-width: min-content}
+    .form {width: 100%;}
+
+}
+
+/* @media only screen and (max-width: 1200px) {
+    .card-flex {
+        padding: 200px 50px;
+    } */
+
+
